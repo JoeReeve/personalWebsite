@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+#hero ~ * {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#projects {
+  margin-bottom: 6rem;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
