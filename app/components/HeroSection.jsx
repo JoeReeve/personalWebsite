@@ -19,7 +19,7 @@ function HeroSection() {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hey there, I'm Joe <br />
+              Hey there, I&apos;m Joe <br />
             </span>
             <TypeAnimation
               sequence={[
@@ -39,7 +39,7 @@ function HeroSection() {
           </h1>
           <p className="text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-xl">
             This site mainly serves as a place to impress hiring managers, but
-            it also hosts some other fun projects I'm passionate about
+            it also hosts some other fun projects I&apos;m passionate about
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-white bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500">
