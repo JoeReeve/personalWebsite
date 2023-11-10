@@ -41,8 +41,10 @@ function EmailSection() {
 
       <div>
         <form
+          name="contact"
           action=""
           className="flex flex-col"
+          netlify
         >
           <div className="mb-6">
             <label

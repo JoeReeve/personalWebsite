@@ -38,11 +38,13 @@ const TAB_DATA = [
     content: (
       <>
         <li>FamilySearch Internship</li>
-        <li>Express</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>HTML</li>
-        <li>CSS</li>
+        <li>Freelance web developer</li>
+        <li>
+          Certifications
+          <ul>
+            <li> - Docker</li>
+          </ul>
+        </li>
       </>
     ),
   },
@@ -64,7 +66,7 @@ function AboutSection() {
     >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/about-image.png"
+          src="/images/ai_me.png"
           width={500}
           height={500}
         />
