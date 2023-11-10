@@ -57,10 +57,10 @@ const projectsData = [
     title: "Mersenne Twister Visualizer",
     description:
       "One of the first projects I ever did to learn js/html/css. Not very pretty, but I'm proud of it. I made a js implementation of the mersenne twister PRNG and used that to create a random canvas",
-    image: "/images/projects/6.png",
+    image: "/images/projects/mersenne.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/JoeReeve/Mersenne-Twister",
+    previewUrl: "https://joereeve.github.io/Mersenne-Twister/",
   },
 ];
 
