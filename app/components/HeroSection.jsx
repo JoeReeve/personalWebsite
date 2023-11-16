@@ -37,7 +37,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-lg p-2">
+          <p className="text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-lg p-4">
             This site mainly serves as a place to impress hiring managers, but
             it also hosts some other fun projects I&apos;m passionate about
           </p>
@@ -66,7 +66,7 @@ function HeroSection() {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ml-8">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/profile_image.png"
               alt="hero image"
