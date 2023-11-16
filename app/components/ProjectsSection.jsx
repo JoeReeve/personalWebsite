@@ -9,7 +9,7 @@ const projectsData = [
     title: "Saturn Yoga Business Website",
     description:
       "Mobile first website for a local business built using Javascript and Sveltekit.",
-    image: "/images/projects/saturn.png",
+    image: "/images/projects/saturn.webp",
     tag: ["All", "Web"],
     previewUrl: "https://saturnyoga.com/",
   },
@@ -18,7 +18,7 @@ const projectsData = [
     title: "Construction business website",
     description:
       "Fun project I used to practicie building a mobile-first website. Built using Javascript and Sveltekit.",
-    image: "/images/projects/construction.png",
+    image: "/images/projects/construction.webp",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JoeReeve/constructionSite",
     previewUrl: "https://construction-site-new.netlify.app/",
@@ -28,7 +28,7 @@ const projectsData = [
     title: "FamilySearch Labs",
     description:
       "A page where FS users can go to turn on/off beta features for themselves. Built using React",
-    image: "/images/projects/labs.png",
+    image: "/images/projects/labs.webp",
     tag: ["All", "Mobile"],
     previewUrl: "https://familysearch.org/labs",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Etch-a-sketch",
     description:
       "A simple, resizeable etch-a-sketch built using pure javascript",
-    image: "/images/projects/etch.png",
+    image: "/images/projects/etch.webp",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JoeReeve/etch-a-sketch",
     previewUrl: "https://joereeve.github.io/etch-a-sketch/",
@@ -48,7 +48,7 @@ const projectsData = [
     title: "NBA Stats Visualizer",
     description:
       "Data-vis project built with react to compare stats of the last 10 unique NBA championship teams. Turns out it takes very similar stats to win big..",
-    image: "/images/projects/nba.png",
+    image: "/images/projects/nba.webp",
     tag: ["All", "Web"],
     previewUrl: "https://nbastatsreact.netlify.app/",
   },
@@ -57,7 +57,7 @@ const projectsData = [
     title: "Mersenne Twister Visualizer",
     description:
       "One of the first projects I ever did to learn js/html/css. Not very pretty, but I'm proud of it. I made a js implementation of the mersenne twister PRNG and used that to create a random canvas",
-    image: "/images/projects/mersenne.png",
+    image: "/images/projects/mersenne.webp",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JoeReeve/Mersenne-Twister",
     previewUrl: "https://joereeve.github.io/Mersenne-Twister/",
