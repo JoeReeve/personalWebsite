@@ -14,6 +14,14 @@ const projectsData = [
     previewUrl: "https://saturnyoga.com/",
   },
   {
+    id: 3,
+    title: "FamilySearch Labs",
+    description:
+      "A page on FamilySearch.com built from the ground up during my internship where FS users can go to turn on/off beta features for themselves. Mobile-first frontend built with React that integrated with split.io on the backend to control feature flags",
+    image: "/images/projects/labs.webp",
+    tag: ["All", "Mobile"],
+  },
+  {
     id: 2,
     title: "Construction business website",
     description:
@@ -24,13 +32,13 @@ const projectsData = [
     previewUrl: "https://construction-site-new.netlify.app/",
   },
   {
-    id: 3,
-    title: "FamilySearch Labs",
+    id: 5,
+    title: "NBA Stats Visualizer",
     description:
-      "A page where FS users can go to turn on/off beta features for themselves. Built using React",
-    image: "/images/projects/labs.webp",
-    tag: ["All", "Mobile"],
-    previewUrl: "https://familysearch.org/labs",
+      "Data-vis project built with react to compare stats of the last 10 unique NBA championship teams. Turns out it takes very similar stats to win big..",
+    image: "/images/projects/nba.webp",
+    tag: ["All", "Web"],
+    previewUrl: "https://nbastatsreact.netlify.app/",
   },
   {
     id: 4,
@@ -43,15 +51,6 @@ const projectsData = [
     previewUrl: "https://joereeve.github.io/etch-a-sketch/",
   },
 
-  {
-    id: 5,
-    title: "NBA Stats Visualizer",
-    description:
-      "Data-vis project built with react to compare stats of the last 10 unique NBA championship teams. Turns out it takes very similar stats to win big..",
-    image: "/images/projects/nba.webp",
-    tag: ["All", "Web"],
-    previewUrl: "https://nbastatsreact.netlify.app/",
-  },
   {
     id: 6,
     title: "Mersenne Twister Visualizer",
@@ -77,10 +76,7 @@ function ProjectsSection() {
         My Projects
       </h2>
       <div>
-        <ul
-          ref={ref}
-          className="grid md:grid-cols-3 gap-8 md:gap-12"
-        >
+        <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
           {projectsData.map((project, index) => (
             <motion.li
               key={index}
